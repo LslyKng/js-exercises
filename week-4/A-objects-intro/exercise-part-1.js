@@ -7,3 +7,6 @@ Assign each of them to a separate variable
 
 */
 
+var chair = {};
+var house = {};
+var holiday = {};

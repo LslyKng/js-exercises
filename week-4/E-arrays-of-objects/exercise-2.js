@@ -40,7 +40,13 @@ WRITE YOUR CODE BELOW
 */
 
 
-var destinationNamesWithin500Kms = // Complete here
+var destinationNamesWithin500Kms = 
+function  howFar (placeNames){
+    return placeNames<=500
+}
+travelDestinations.filter(howFar)
+
+// Complete here
 
 var destinationNameReachableByFerry = // Complete here
 
